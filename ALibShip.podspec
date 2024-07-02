@@ -24,7 +24,7 @@ The ALibShip SDK is an iOS framework whose goal is to help you run ALibShip camp
   s.homepage         = "https://app.ALibShip.io/login"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ALibShip' => 'adel@abtasty.com' }
-  s.source           = { :git => 'https://github.com/flagship-io/flagship-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:ABTastyAdel/ALibShip.git', :tag => s.version.to_s }
   
   s.ios.deployment_target  = "11.0"
   s.tvos.deployment_target = "11.0"
