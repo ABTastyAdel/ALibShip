@@ -27,8 +27,8 @@ The ALibShip SDK is an iOS framework whose goal is to help you run ALibShip camp
   s.source           = { :git => 'git@github.com:ABTastyAdel/ALibShip.git', :tag => s.version.to_s }
   
   s.ios.deployment_target  = "11.0"
-  s.tvos.deployment_target = "11.0"
-  s.osx.deployment_target = "10.13"
+  #s.tvos.deployment_target = "11.0"
+  #s.osx.deployment_target = "10.13"
   #s.watchos.deployment_target = "5.0"   #publishing podspecs that support watchOS platform is currently broken under Xcode 14
   
   
