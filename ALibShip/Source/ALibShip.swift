@@ -7,7 +7,7 @@
 import Foundation
 
 public class ALibship {
-    init() {
+    public init() {
         print("----- Init ALibship ---- ")
     }
 

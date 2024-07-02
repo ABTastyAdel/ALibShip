@@ -1,0 +1,16 @@
+PODS:
+  - ALibShip (1.0.0)
+
+DEPENDENCIES:
+  - ALibShip (from `../ALibShip`)
+
+EXTERNAL SOURCES:
+  ALibShip:
+    :path: "../ALibShip"
+
+SPEC CHECKSUMS:
+  ALibShip: 3e43e60d6208d0cadb8584251dc1ad97b68e2926
+
+PODFILE CHECKSUM: 17463aeada55f751244157c19117d35cabe5dd73
+
+COCOAPODS: 1.13.0

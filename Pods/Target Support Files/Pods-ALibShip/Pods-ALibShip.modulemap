@@ -1,0 +1,6 @@
+framework module Pods_ALibShip {
+  umbrella header "Pods-ALibShip-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,4 +37,3 @@ The ALibShip SDK is an iOS framework whose goal is to help you run ALibShip camp
   
   s.swift_version           = "5.0"
   end
-æ

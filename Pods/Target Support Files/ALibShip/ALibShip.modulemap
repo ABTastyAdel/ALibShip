@@ -1,0 +1,6 @@
+framework module ALibShip {
+  umbrella header "ALibShip-umbrella.h"
+
+  export *
+  module * { export * }
+}
