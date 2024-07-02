@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		209B4903A6F2D60C0BB311CE50C939DA /* ALibShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFA9190A25AC47639B4AACE0BCAB719 /* ALibShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209B4903A6F2D60C0BB311CE50C939DA /* ALibShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 504B2AE3631D0434715936AE92F5E422 /* ALibShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4660BF46E11DBBD9A3DBE910E2DFA1AB /* Pods-ALibShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD5CAC8C96ECA9BA6F5AE5C01271DBD /* Pods-ALibShip-dummy.m */; };
 		64899CDD42A24DDAAC70092E7B0F67CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		763ED7BFE4A6A4F4DB7FDEA5F3B25E3A /* Pods-iosApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE71BF505057CCBC0008600B2BF9AC79 /* Pods-iosApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B749F59F4681A3E885AD6B186C0676 /* ALibShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91511555CF21FEA461BCA121D783FCA /* ALibShip.swift */; };
+		79B749F59F4681A3E885AD6B186C0676 /* ALibShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A114DC19CE1B2178DCE1E65D7586C /* ALibShip.swift */; };
 		7E3C72C1D4C003CBE2957024D8B08E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		94FB81A5BB88589CA666776725AA733B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AC57931FFBF3DA8C9EA3738EAF4E62F9 /* Pods-ALibShip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA786C3A801FA3E999D4C47956C35DE /* Pods-ALibShip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7B19317718D15D5B58A5CCEB307FD5 /* Pods-iosApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3569A24E15B31D68938A0A056FD5D6 /* Pods-iosApp-dummy.m */; };
-		CC48A2F85DC2BE7D74F070567DA46F04 /* ALibShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2A8AA383FC977327BF8D559512278 /* ALibShip-dummy.m */; };
+		CC48A2F85DC2BE7D74F070567DA46F04 /* ALibShip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F8612C15CBFD9C0DB4847ED9EACFAE /* ALibShip-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BBAABAAC97FCC44A12AE9BF3A447948 /* PBXContainerItemProxy */ = {
+		7F285A26C1F627ED49CBBA866CE7A1A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -32,32 +32,33 @@
 /* Begin PBXFileReference section */
 		0427DDDE6D0AB779741CEDF644147172 /* Pods-ALibShip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ALibShip"; path = Pods_ALibShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		093C6AB7CEB27B16EF12207C60E1DD61 /* Pods-ALibShip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALibShip-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1928376DE761B48E0346928F85AD2ACB /* ALibShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALibShip.release.xcconfig; sourceTree = "<group>"; };
+		1965CE5C5A2EF7BC8F8515D2C231AC15 /* ALibShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALibShip.release.xcconfig; sourceTree = "<group>"; };
 		1A8F9CD32FFC66FEF21AC538DE80B300 /* Pods-iosApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		1AA786C3A801FA3E999D4C47956C35DE /* Pods-ALibShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALibShip-umbrella.h"; sourceTree = "<group>"; };
 		33DC3F2E9FE4BAFF0460B114092B1D3B /* Pods-iosApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-Info.plist"; sourceTree = "<group>"; };
-		3FA9A9A059BE82A4361A45C1E71AF530 /* ALibShip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALibShip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		437C041AD40B0322CD68A8FAAFD4E583 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		44B5AC1558B2FDFC1762104FEC91815A /* Pods-ALibShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALibShip-Info.plist"; sourceTree = "<group>"; };
 		4980E0CBD10DEC8CE561A86F24794206 /* Pods-ALibShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALibShip.debug.xcconfig"; sourceTree = "<group>"; };
 		4F3569A24E15B31D68938A0A056FD5D6 /* Pods-iosApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosApp-dummy.m"; sourceTree = "<group>"; };
+		504B2AE3631D0434715936AE92F5E422 /* ALibShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALibShip-umbrella.h"; sourceTree = "<group>"; };
+		56BD77D2CF6C5705C6AF58A194C68D09 /* ALibShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALibShip-Info.plist"; sourceTree = "<group>"; };
+		66B6F236C9FDBBFCD822BDF5C53C8452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83C9C13A4E9B622F75D994881D772BFE /* ALibShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALibShip.debug.xcconfig; sourceTree = "<group>"; };
+		9034CDC27CFE14AE5EC6E134A2D3FB34 /* ALibShip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALibShip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FC4A86DF99568CE4091BF16077B782C /* Pods-ALibShip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALibShip.release.xcconfig"; sourceTree = "<group>"; };
-		9FFA9190A25AC47639B4AACE0BCAB719 /* ALibShip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALibShip-umbrella.h"; sourceTree = "<group>"; };
+		A9A09C69F5C79E16658E46E0186D0605 /* ALibShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALibShip.modulemap; sourceTree = "<group>"; };
 		B097DD7534E741D5C41838011D755842 /* Pods-iosApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosApp"; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E2A8AA383FC977327BF8D559512278 /* ALibShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALibShip-dummy.m"; sourceTree = "<group>"; };
+		B3F8612C15CBFD9C0DB4847ED9EACFAE /* ALibShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALibShip-dummy.m"; sourceTree = "<group>"; };
 		B5BDE61B69FB9D1A26998B3E99F907EE /* Pods-iosApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C8DAAE0E24948EC4E19CE206E581B2D6 /* ALibShip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALibShip-Info.plist"; sourceTree = "<group>"; };
-		CA327010E356D14EF541D38E7E21F675 /* ALibShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALibShip.modulemap; sourceTree = "<group>"; };
 		CACAC0F7FD8D9D4F5A49261E75DFAC02 /* Pods-iosApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosApp.modulemap"; sourceTree = "<group>"; };
-		D1E88E5318943297FF48EB06D5BE49F1 /* ALibShip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALibShip-prefix.pch"; sourceTree = "<group>"; };
 		D269F996F6AC149901A09281E09F0DBD /* Pods-iosApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-frameworks.sh"; sourceTree = "<group>"; };
+		E0C1A9FCC3A2D49F992F46655240CDC7 /* ALibShip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALibShip.debug.xcconfig; sourceTree = "<group>"; };
 		E2B944930F775177733E5FFB27F5AE72 /* Pods-ALibShip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALibShip-acknowledgements.plist"; sourceTree = "<group>"; };
-		E91511555CF21FEA461BCA121D783FCA /* ALibShip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALibShip.swift; path = ALibShip/Source/ALibShip.swift; sourceTree = "<group>"; };
+		E34A114DC19CE1B2178DCE1E65D7586C /* ALibShip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALibShip.swift; path = ALibShip/Source/ALibShip.swift; sourceTree = "<group>"; };
 		F23A68C9FA58ABB8794552616F326DCB /* ALibShip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALibShip; path = ALibShip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24E74CB043BB8A21D6FCEB6C9EB7DD2 /* Pods-ALibShip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALibShip.modulemap"; sourceTree = "<group>"; };
+		F5ACDCF067BC2498D2D7FF75673B904A /* ALibShip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALibShip-prefix.pch"; sourceTree = "<group>"; };
 		FAB9DA3FB91563A7A339F318144FBE8D /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD5CAC8C96ECA9BA6F5AE5C01271DBD /* Pods-ALibShip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALibShip-dummy.m"; sourceTree = "<group>"; };
 		FE71BF505057CCBC0008600B2BF9AC79 /* Pods-iosApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosApp-umbrella.h"; sourceTree = "<group>"; };
@@ -91,21 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1481AD1ACBBC8F9453FD0A5E035D1641 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA327010E356D14EF541D38E7E21F675 /* ALibShip.modulemap */,
-				B3E2A8AA383FC977327BF8D559512278 /* ALibShip-dummy.m */,
-				C8DAAE0E24948EC4E19CE206E581B2D6 /* ALibShip-Info.plist */,
-				D1E88E5318943297FF48EB06D5BE49F1 /* ALibShip-prefix.pch */,
-				9FFA9190A25AC47639B4AACE0BCAB719 /* ALibShip-umbrella.h */,
-				83C9C13A4E9B622F75D994881D772BFE /* ALibShip.debug.xcconfig */,
-				1928376DE761B48E0346928F85AD2ACB /* ALibShip.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/ALibShip";
-			sourceTree = "<group>";
-		};
 		175A904075067ADC9A7F9407CC7E1B7F /* Pods-ALibShip */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,20 +108,12 @@
 			path = "Target Support Files/Pods-ALibShip";
 			sourceTree = "<group>";
 		};
-		1E676133DAD14D156FC23333272B7905 /* Pod */ = {
+		490BB17D00A07763DFFDDD3E4A14EBC3 /* ALibShip */ = {
 			isa = PBXGroup;
 			children = (
-				3FA9A9A059BE82A4361A45C1E71AF530 /* ALibShip.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2849D88ACC9CE22BA72ACCD0362A9893 /* ALibShip */ = {
-			isa = PBXGroup;
-			children = (
-				E91511555CF21FEA461BCA121D783FCA /* ALibShip.swift */,
-				1E676133DAD14D156FC23333272B7905 /* Pod */,
-				1481AD1ACBBC8F9453FD0A5E035D1641 /* Support Files */,
+				E34A114DC19CE1B2178DCE1E65D7586C /* ALibShip.swift */,
+				C87A83B03E23FB33EBD2F8194C9B751A /* Pod */,
+				6EEA85596103BBCDEED8B4209E2C54BE /* Support Files */,
 			);
 			name = ALibShip;
 			path = ..;
@@ -144,7 +122,7 @@
 		4D40AB2B9049E6D36F16653CFE50EDA9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2849D88ACC9CE22BA72ACCD0362A9893 /* ALibShip */,
+				490BB17D00A07763DFFDDD3E4A14EBC3 /* ALibShip */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -167,6 +145,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6EEA85596103BBCDEED8B4209E2C54BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A09C69F5C79E16658E46E0186D0605 /* ALibShip.modulemap */,
+				B3F8612C15CBFD9C0DB4847ED9EACFAE /* ALibShip-dummy.m */,
+				56BD77D2CF6C5705C6AF58A194C68D09 /* ALibShip-Info.plist */,
+				F5ACDCF067BC2498D2D7FF75673B904A /* ALibShip-prefix.pch */,
+				504B2AE3631D0434715936AE92F5E422 /* ALibShip-umbrella.h */,
+				E0C1A9FCC3A2D49F992F46655240CDC7 /* ALibShip.debug.xcconfig */,
+				1965CE5C5A2EF7BC8F8515D2C231AC15 /* ALibShip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ALibShip";
+			sourceTree = "<group>";
+		};
 		C539C27F7F690057FD36E791366270A7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +167,15 @@
 				FC090B29E57E3D9461DE6DEC7BB28F33 /* Pods-iosApp */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C87A83B03E23FB33EBD2F8194C9B751A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9034CDC27CFE14AE5EC6E134A2D3FB34 /* ALibShip.podspec */,
+				66B6F236C9FDBBFCD822BDF5C53C8452 /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -290,7 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EAA4DAB33085061E983D7C72F3ABB726 /* PBXTargetDependency */,
+				96497C2801BA3BFA5B4836C513C109B5 /* PBXTargetDependency */,
 			);
 			name = "Pods-iosApp";
 			productName = Pods_iosApp;
@@ -379,11 +381,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EAA4DAB33085061E983D7C72F3ABB726 /* PBXTargetDependency */ = {
+		96497C2801BA3BFA5B4836C513C109B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ALibShip;
 			target = E16C1DE92E3BA80144315833A715C8BD /* ALibShip */;
-			targetProxy = 2BBAABAAC97FCC44A12AE9BF3A447948 /* PBXContainerItemProxy */;
+			targetProxy = 7F285A26C1F627ED49CBBA866CE7A1A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -569,7 +571,7 @@
 		};
 		4F618AA7DE36128FC942058884447FA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C9C13A4E9B622F75D994881D772BFE /* ALibShip.debug.xcconfig */;
+			baseConfigurationReference = E0C1A9FCC3A2D49F992F46655240CDC7 /* ALibShip.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,7 +668,7 @@
 		};
 		81DF4FA496F6302204F43B83ACA85D50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1928376DE761B48E0346928F85AD2ACB /* ALibShip.release.xcconfig */;
+			baseConfigurationReference = 1965CE5C5A2EF7BC8F8515D2C231AC15 /* ALibShip.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

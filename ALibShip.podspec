@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ALibShip"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "AlibShip SDK"
   
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ The ALibShip SDK is an iOS framework whose goal is to help you run ALibShip camp
   s.homepage         = "https://app.ALibShip.io/login"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ALibShip' => 'adel@abtasty.com' }
-  s.source           = { :git => 'git@github.com:ABTastyAdel/ALibShip.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ABTastyAdel/ALibShip.git', :tag => s.version.to_s }
   
   s.ios.deployment_target  = "11.0"
   #s.tvos.deployment_target = "11.0"
