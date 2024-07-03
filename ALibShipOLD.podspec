@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "ALibship"
+  s.name             = "ALibShip"
   s.version          = "1.0.2"
   s.summary          = "AlibShip SDK"
   
